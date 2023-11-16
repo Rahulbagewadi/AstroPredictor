@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgelg_as_QCGE_VPnHYT0l1CYu97QbonWW6i5gysXXoP5qGNLmMQiat-NGdc4JjhkS_5A&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  input {
+    padding: 10px;
+    margin: 10px;
+  }
+  h1{
+      font-family: 'Cedarville Cursive';font-size: 50px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(32, 220, 76);
+    border-radius: 10px;
+    border: none;
+    color: azure;
+    margin-top: 20px;
+  }
+  #dobForm{
+      margin-top: 50px;
+  }

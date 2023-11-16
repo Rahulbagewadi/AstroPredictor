@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Marriage Calculator</title>
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+  <h1> Astro Predictor</h1>
+  <form id="dobForm">
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required>
+    <br>
+    <button type="button" onclick="calculateLoveChance()">Calculate Love Marriage Chance</button>
+  </form>
+
+  <script src="index.js">
+   
+   
+
+
+
+
+
+
+
+
+
+
+    // function calculateLoveChance() {
+    //   // Get the user's input
+    //  let dobInput = document.getElementById('dob').value;
+
+    //   // Store the input in a variable (you can perform further processing/validation here)
+    //  let userDOB = new Date(dobInput);
+
+    //   // Step 1: Calculate King Number
+    //  let kingNumber = getSingleDigitSum(userDOB.getDate());
+
+    //   // Step 2: Break the full date into single units (myArray)
+    //  let myArray = breakDateIntoUnits(userDOB);
+
+    //   // Step 3: Calculate Queen Number
+     //let queenNumber = getSingleDigitSum(myArray.reduce((acc, val) => acc + val, 0));
+
+    //   // Step 4: Push King Number and Queen Number into myArray
+    //   myArray.push(kingNumber, queenNumber);
+
+    //   // Step 5: Display Love Marriage Chance
+    //   displayLoveMarriageChance(myArray);
+    //   document.getElementById('dob').value=''
+    // }
+
+    // function getSingleDigitSum(number) {
+    //   // If the number is already a single digit, return it
+    //   if (number < 10) {
+    //     return number;
+    //   }
+
+    //   // Sum the individual digits
+    //  let sum = 0;
+    //   while (number > 0) {
+    //     sum += number % 10;
+    //     number = Math.floor(number / 10);
+    //   }
+
+    //   // Recursively call the function with the sum
+    //   return getSingleDigitSum(sum);
+    // }
+
+    // function breakDateIntoUnits(date) {
+    //   // Break the full date into single units
+    //  let dateArray = [
+    //     Math.floor(date.getDate() / 10),
+    //     date.getDate() % 10,
+    //     Math.floor((date.getMonth() + 1) / 10),
+    //     (date.getMonth() + 1) % 10,
+    //     Math.floor(date.getFullYear() / 1000),
+    //     Math.floor((date.getFullYear() % 1000) / 100),
+    //     Math.floor((date.getFullYear() % 100) / 10),
+    //     date.getFullYear() % 10
+    //   ];
+
+    //   return dateArray;
+    // }
+
+    // function displayLoveMarriageChance(myArray) {
+    //   // Step 6: Display Love Marriage Chance
+    //  let loveMarriageChance;
+    //  let loveNumbers = [6, 4, 1, 2];
+    //  let commonNumbers = loveNumbers.filter(number => myArray.includes(number));
+
+    //   if (commonNumbers.length === 2) {
+    //     loveMarriageChance = "Love marriage chance is 50%";
+    //   } else if (commonNumbers.length === 3) {
+    //     loveMarriageChance = "Love marriage chance is 75%";
+    //   } else if (commonNumbers.length === 4) {
+    //     loveMarriageChance = "Love marriage chance is 100%";
+    //   } else {
+    //     loveMarriageChance = "Arrange marriage";
+    //   }
+
+    //   // Display the result
+    //   alert(loveMarriageChance);
+    // }
+  </script>
+</body>
+</html>
